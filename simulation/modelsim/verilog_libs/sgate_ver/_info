@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/altera/verilog_ip_pll/simulation/modelsim
 vio_buf_opdrn
-Z1 !s110 1501678566
+Z1 !s110 1501682210
 !i10b 1
 !s100 VhizJG_UoJ<b<SS=?:bCT2
 IWBY10UZ:kXR7bgE]GX?JZ2
@@ -23,7 +23,7 @@ Z6 OL;L;10.4;61
 r1
 !s85 0
 31
-Z7 !s108 1501678566.286000
+Z7 !s108 1501682210.648000
 Z8 !s107 c:/altera/16.0/quartus/eda/sim_lib/sgate.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|c:/altera/16.0/quartus/eda/sim_lib/sgate.v|
 !i113 1

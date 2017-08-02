@@ -27,7 +27,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/altera/16.0/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:03 on Aug 02,2017
+# Start time: 21:56:47 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/altera/16.0/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -107,7 +107,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 20:56:04 on Aug 02,2017, Elapsed time: 0:00:01
+# End time: 21:56:48 on Aug 02,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -119,7 +119,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/altera/16.0/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:05 on Aug 02,2017
+# Start time: 21:56:48 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/altera/16.0/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -183,7 +183,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 20:56:05 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:49 on Aug 02,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -195,7 +195,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/altera/16.0/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:06 on Aug 02,2017
+# Start time: 21:56:50 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/altera/16.0/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -237,7 +237,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 20:56:06 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:50 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -249,7 +249,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/altera/16.0/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:07 on Aug 02,2017
+# Start time: 21:56:51 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/altera/16.0/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -379,7 +379,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 20:56:08 on Aug 02,2017, Elapsed time: 0:00:01
+# End time: 21:56:52 on Aug 02,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -391,7 +391,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/altera/16.0/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:09 on Aug 02,2017
+# Start time: 21:56:53 on Aug 02,2017
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/altera/16.0/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -474,7 +474,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 20:56:10 on Aug 02,2017, Elapsed time: 0:00:01
+# End time: 21:56:53 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -486,7 +486,7 @@
 # Modifying D:/modeltech64_10.4/win64/../modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {c:/altera/16.0/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:11 on Aug 02,2017
+# Start time: 21:56:54 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver c:/altera/16.0/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -564,7 +564,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 20:56:12 on Aug 02,2017, Elapsed time: 0:00:01
+# End time: 21:56:54 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -578,49 +578,49 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/altera/verilog_ip_pll {E:/altera/verilog_ip_pll/verilog_ip_pll.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:12 on Aug 02,2017
+# Start time: 21:56:55 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/altera/verilog_ip_pll" E:/altera/verilog_ip_pll/verilog_ip_pll.v 
 # -- Compiling module verilog_ip_pll
 # 
 # Top level modules:
 # 	verilog_ip_pll
-# End time: 20:56:12 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:55 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/altera/verilog_ip_pll {E:/altera/verilog_ip_pll/ip_pll.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:12 on Aug 02,2017
+# Start time: 21:56:55 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/altera/verilog_ip_pll" E:/altera/verilog_ip_pll/ip_pll.v 
 # -- Compiling module ip_pll
 # 
 # Top level modules:
 # 	ip_pll
-# End time: 20:56:12 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:55 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/altera/verilog_ip_pll/db {E:/altera/verilog_ip_pll/db/ip_pll_altpll.v}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:12 on Aug 02,2017
+# Start time: 21:56:55 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/altera/verilog_ip_pll/db" E:/altera/verilog_ip_pll/db/ip_pll_altpll.v 
 # -- Compiling module ip_pll_altpll
 # 
 # Top level modules:
 # 	ip_pll_altpll
-# End time: 20:56:12 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:56 on Aug 02,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/altera/verilog_ip_pll/simulation/modelsim {E:/altera/verilog_ip_pll/simulation/modelsim/verilog_ip_pll_tb.vt}
 # Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
-# Start time: 20:56:13 on Aug 02,2017
+# Start time: 21:56:56 on Aug 02,2017
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/altera/verilog_ip_pll/simulation/modelsim" E:/altera/verilog_ip_pll/simulation/modelsim/verilog_ip_pll_tb.vt 
 # -- Compiling module verilog_ip_pll_vlg_tst
 # 
 # Top level modules:
 # 	verilog_ip_pll_vlg_tst
-# End time: 20:56:13 on Aug 02,2017, Elapsed time: 0:00:00
+# End time: 21:56:56 on Aug 02,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  verilog_ip_pll_vlg_tst
 # vsim -gui -l msim_transcript -do "verilog_ip_pll_run_msim_rtl_verilog.do" 
-# Start time: 20:56:13 on Aug 02,2017
+# Start time: 21:56:56 on Aug 02,2017
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # 
 # Loading work.verilog_ip_pll_vlg_tst
@@ -643,5 +643,7 @@
 # run -all
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 90000  Instance: verilog_ip_pll_vlg_tst.i1.u1.altpll_component.cycloneiii_pll.pll3
-# End time: 20:56:45 on Aug 02,2017, Elapsed time: 0:00:32
+# Break key hit
+# Break in Module MF_cycloneiii_pll at c:/altera/16.0/quartus/eda/sim_lib/altera_mf.v line 17473
+# End time: 21:57:11 on Aug 02,2017, Elapsed time: 0:00:15
 # Errors: 0, Warnings: 1

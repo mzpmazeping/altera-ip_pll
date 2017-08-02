@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dE:/altera/verilog_ip_pll/simulation/modelsim
 va_graycounter
-Z1 !s110 1501678568
+Z1 !s110 1501682212
 !i10b 1
 !s100 ?8Tm3Y?0N<Mggg>Fi@5DV1
 IYh:I[?IG6ESBWe8YWkQIS2
@@ -23,7 +23,7 @@ Z6 OL;L;10.4;61
 r1
 !s85 0
 31
-Z7 !s108 1501678567.109000
+Z7 !s108 1501682211.282000
 Z8 !s107 c:/altera/16.0/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|c:/altera/16.0/quartus/eda/sim_lib/altera_mf.v|
 !i113 1
@@ -229,7 +229,7 @@ R9
 !i113 1
 R10
 valtaccumulate
-Z11 !s110 1501678567
+Z11 !s110 1501682211
 !i10b 1
 !s100 Y;hl4WG5BJBIoj4N3ZI_H1
 I2Rki;S83bg1R_:@_L7:dd3
@@ -249,7 +249,7 @@ R9
 !i113 1
 R10
 valtclklock
-R11
+R1
 !i10b 1
 !s100 iZnVZG`I[H`MV[aSSHgfg1
 I`0WI=]ITCk:h8D@@hA4;=1
@@ -269,7 +269,7 @@ R9
 !i113 1
 R10
 valtddio_bidir
-R11
+R1
 !i10b 1
 !s100 ;=^izJnC2Ji;IdXaf_mlz2
 IenQfE<Jf^g3]fiCN>Y98j1
@@ -289,7 +289,7 @@ R9
 !i113 1
 R10
 valtddio_in
-R11
+R1
 !i10b 1
 !s100 OdT^`UX]9[??0ndN3ZV6@2
 I6n=aNFJk8^>oNPnN9HlQH3
@@ -309,7 +309,7 @@ R9
 !i113 1
 R10
 valtddio_out
-R11
+R1
 !i10b 1
 !s100 k6UCnXg5bJQ<2d6PiU;5a0
 I[9DM;6Iz^JOUJ<SYXj]mz3
@@ -329,7 +329,7 @@ R9
 !i113 1
 R10
 valtdpram
-R11
+R1
 !i10b 1
 !s100 :[E6YHNz3ZK:g4ZS;<_WY0
 IM5DKjKA[DCWd>kaR009Eh3
@@ -492,7 +492,7 @@ R9
 !i113 1
 R10
 valtfp_mult
-R11
+R1
 !i10b 1
 !s100 7kG?SMh@z<DSVfbE8gz0K2
 IQdVFkjUJLIRb7iKc>zL^j3
@@ -572,7 +572,7 @@ R9
 !i113 1
 R10
 valtmult_add
-R11
+R1
 !i10b 1
 !s100 7M:X[TO9neK:X^9D7gSB12
 IIU618>5ABUIk^ENSTTOOC1
@@ -692,7 +692,7 @@ R9
 !i113 1
 R10
 valtsqrt
-R11
+R1
 !i10b 1
 !s100 K8K6oO4aSBQDXd@<6D2:b3
 I<fL7FfaWDoCb3DIDaZznL1
