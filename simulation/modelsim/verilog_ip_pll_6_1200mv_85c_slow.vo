@@ -1,0 +1,231 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition"
+
+// DATE "08/02/2017 20:44:39"
+
+// 
+// Device: Altera EP4CE6E22C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module verilog_ip_pll (
+	clk_50M,
+	rst_n,
+	led1);
+input 	clk_50M;
+input 	rst_n;
+output 	led1;
+
+// Design Ports Information
+// led1	=>  Location: PIN_43,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// rst_n	=>  Location: PIN_38,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk_50M	=>  Location: PIN_23,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("verilog_ip_pll_6_1200mv_85c_v_slow.sdo");
+// synopsys translate_on
+
+wire \~ALTERA_ASDO_DATA1~~ibuf_o ;
+wire \~ALTERA_FLASH_nCE_nCSO~~ibuf_o ;
+wire \~ALTERA_DATA0~~ibuf_o ;
+wire \rst_n~input_o ;
+wire \clk_50M~input_o ;
+wire \u1|altpll_component|auto_generated|wire_pll1_fbout ;
+wire \u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1_outclk ;
+wire [4:0] \u1|altpll_component|auto_generated|wire_pll1_clk ;
+
+wire [4:0] \u1|altpll_component|auto_generated|pll1_CLK_bus ;
+
+assign \u1|altpll_component|auto_generated|wire_pll1_clk [0] = \u1|altpll_component|auto_generated|pll1_CLK_bus [0];
+assign \u1|altpll_component|auto_generated|wire_pll1_clk [1] = \u1|altpll_component|auto_generated|pll1_CLK_bus [1];
+assign \u1|altpll_component|auto_generated|wire_pll1_clk [2] = \u1|altpll_component|auto_generated|pll1_CLK_bus [2];
+assign \u1|altpll_component|auto_generated|wire_pll1_clk [3] = \u1|altpll_component|auto_generated|pll1_CLK_bus [3];
+assign \u1|altpll_component|auto_generated|wire_pll1_clk [4] = \u1|altpll_component|auto_generated|pll1_CLK_bus [4];
+
+// Location: IOOBUF_X5_Y0_N23
+cycloneive_io_obuf \led1~output (
+	.i(\u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1_outclk ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(led1),
+	.obar());
+// synopsys translate_off
+defparam \led1~output .bus_hold = "false";
+defparam \led1~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X1_Y0_N22
+cycloneive_io_ibuf \rst_n~input (
+	.i(rst_n),
+	.ibar(gnd),
+	.o(\rst_n~input_o ));
+// synopsys translate_off
+defparam \rst_n~input .bus_hold = "false";
+defparam \rst_n~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N8
+cycloneive_io_ibuf \clk_50M~input (
+	.i(clk_50M),
+	.ibar(gnd),
+	.o(\clk_50M~input_o ));
+// synopsys translate_off
+defparam \clk_50M~input .bus_hold = "false";
+defparam \clk_50M~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: PLL_1
+cycloneive_pll \u1|altpll_component|auto_generated|pll1 (
+	.areset(\rst_n~input_o ),
+	.pfdena(vcc),
+	.fbin(\u1|altpll_component|auto_generated|wire_pll1_fbout ),
+	.phaseupdown(gnd),
+	.phasestep(gnd),
+	.scandata(gnd),
+	.scanclk(gnd),
+	.scanclkena(vcc),
+	.configupdate(gnd),
+	.clkswitch(gnd),
+	.inclk({gnd,\clk_50M~input_o }),
+	.phasecounterselect(3'b000),
+	.phasedone(),
+	.scandataout(),
+	.scandone(),
+	.activeclock(),
+	.locked(),
+	.vcooverrange(),
+	.vcounderrange(),
+	.fbout(\u1|altpll_component|auto_generated|wire_pll1_fbout ),
+	.clk(\u1|altpll_component|auto_generated|pll1_CLK_bus ),
+	.clkbad());
+// synopsys translate_off
+defparam \u1|altpll_component|auto_generated|pll1 .auto_settings = "false";
+defparam \u1|altpll_component|auto_generated|pll1 .bandwidth_type = "medium";
+defparam \u1|altpll_component|auto_generated|pll1 .c0_high = 3;
+defparam \u1|altpll_component|auto_generated|pll1 .c0_initial = 1;
+defparam \u1|altpll_component|auto_generated|pll1 .c0_low = 3;
+defparam \u1|altpll_component|auto_generated|pll1 .c0_mode = "even";
+defparam \u1|altpll_component|auto_generated|pll1 .c0_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c1_high = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c1_initial = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c1_low = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c1_mode = "bypass";
+defparam \u1|altpll_component|auto_generated|pll1 .c1_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c1_use_casc_in = "off";
+defparam \u1|altpll_component|auto_generated|pll1 .c2_high = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c2_initial = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c2_low = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c2_mode = "bypass";
+defparam \u1|altpll_component|auto_generated|pll1 .c2_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c2_use_casc_in = "off";
+defparam \u1|altpll_component|auto_generated|pll1 .c3_high = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c3_initial = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c3_low = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c3_mode = "bypass";
+defparam \u1|altpll_component|auto_generated|pll1 .c3_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c3_use_casc_in = "off";
+defparam \u1|altpll_component|auto_generated|pll1 .c4_high = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c4_initial = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c4_low = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c4_mode = "bypass";
+defparam \u1|altpll_component|auto_generated|pll1 .c4_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .c4_use_casc_in = "off";
+defparam \u1|altpll_component|auto_generated|pll1 .charge_pump_current_bits = 1;
+defparam \u1|altpll_component|auto_generated|pll1 .clk0_counter = "c0";
+defparam \u1|altpll_component|auto_generated|pll1 .clk0_divide_by = 1;
+defparam \u1|altpll_component|auto_generated|pll1 .clk0_duty_cycle = 50;
+defparam \u1|altpll_component|auto_generated|pll1 .clk0_multiply_by = 2;
+defparam \u1|altpll_component|auto_generated|pll1 .clk0_phase_shift = "0";
+defparam \u1|altpll_component|auto_generated|pll1 .clk1_counter = "unused";
+defparam \u1|altpll_component|auto_generated|pll1 .clk1_divide_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk1_duty_cycle = 50;
+defparam \u1|altpll_component|auto_generated|pll1 .clk1_multiply_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk1_phase_shift = "0";
+defparam \u1|altpll_component|auto_generated|pll1 .clk2_counter = "unused";
+defparam \u1|altpll_component|auto_generated|pll1 .clk2_divide_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk2_duty_cycle = 50;
+defparam \u1|altpll_component|auto_generated|pll1 .clk2_multiply_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk2_phase_shift = "0";
+defparam \u1|altpll_component|auto_generated|pll1 .clk3_counter = "unused";
+defparam \u1|altpll_component|auto_generated|pll1 .clk3_divide_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk3_duty_cycle = 50;
+defparam \u1|altpll_component|auto_generated|pll1 .clk3_multiply_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk3_phase_shift = "0";
+defparam \u1|altpll_component|auto_generated|pll1 .clk4_counter = "unused";
+defparam \u1|altpll_component|auto_generated|pll1 .clk4_divide_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk4_duty_cycle = 50;
+defparam \u1|altpll_component|auto_generated|pll1 .clk4_multiply_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .clk4_phase_shift = "0";
+defparam \u1|altpll_component|auto_generated|pll1 .compensate_clock = "clock0";
+defparam \u1|altpll_component|auto_generated|pll1 .inclk0_input_frequency = 20000;
+defparam \u1|altpll_component|auto_generated|pll1 .inclk1_input_frequency = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .loop_filter_c_bits = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .loop_filter_r_bits = 27;
+defparam \u1|altpll_component|auto_generated|pll1 .m = 12;
+defparam \u1|altpll_component|auto_generated|pll1 .m_initial = 1;
+defparam \u1|altpll_component|auto_generated|pll1 .m_ph = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .n = 1;
+defparam \u1|altpll_component|auto_generated|pll1 .operation_mode = "normal";
+defparam \u1|altpll_component|auto_generated|pll1 .pfd_max = 200000;
+defparam \u1|altpll_component|auto_generated|pll1 .pfd_min = 3076;
+defparam \u1|altpll_component|auto_generated|pll1 .self_reset_on_loss_lock = "off";
+defparam \u1|altpll_component|auto_generated|pll1 .simulation_type = "timing";
+defparam \u1|altpll_component|auto_generated|pll1 .switch_over_type = "auto";
+defparam \u1|altpll_component|auto_generated|pll1 .vco_center = 1538;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_divide_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_frequency_control = "auto";
+defparam \u1|altpll_component|auto_generated|pll1 .vco_max = 3333;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_min = 1538;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_multiply_by = 0;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_phase_shift_step = 208;
+defparam \u1|altpll_component|auto_generated|pll1 .vco_post_scale = 2;
+// synopsys translate_on
+
+// Location: CLKCTRL_PLL1E0
+cycloneive_clkctrl \u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1 (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\u1|altpll_component|auto_generated|wire_pll1_clk [0]}),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1_outclk ));
+// synopsys translate_off
+defparam \u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1 .clock_type = "external clock output";
+defparam \u1|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl_e_led1 .ena_register_mode = "double register";
+// synopsys translate_on
+
+endmodule

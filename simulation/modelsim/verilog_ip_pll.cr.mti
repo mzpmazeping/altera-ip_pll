@@ -1,0 +1,25 @@
+E:/altera/verilog_ip_pll/ip_pll.v {1 {vlog -work work -novopt -stats=none E:/altera/verilog_ip_pll/verilog_ip_pll.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module verilog_ip_pll
+
+Top level modules:
+	verilog_ip_pll
+
+} {} {}} E:/altera/verilog_ip_pll/simulation/modelsim/verilog_ip_pll_tb.vt {1 {vlog -work work -novopt -stats=none E:/altera/verilog_ip_pll/simulation/modelsim/verilog_ip_pll_tb.vt
+
+Top level modules:
+	ip_pll
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module verilog_ip_pll_vlg_tst
+
+Top level modules:
+	verilog_ip_pll_vlg_tst
+
+} {} {}} E:/altera/verilog_ip_pll/verilog_ip_pll.v {1 {vlog -work work -novopt -stats=none E:/altera/verilog_ip_pll/verilog_ip_pll.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module verilog_ip_pll
+
+Top level modules:
+	verilog_ip_pll
+
+} {} {}}
